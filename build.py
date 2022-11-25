@@ -14,7 +14,4 @@ default_task = "publish"
 
 @init
 def set_properties(project):
-    project.depends_on('cv2')
-    project.depends_on('numpy')
-    project.depends_on('face_recognition')
-    project.depends_on('datetime')
+    pass
