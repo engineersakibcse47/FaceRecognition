@@ -16,7 +16,7 @@ for cl in myList:
 print(classNames)
 
 
-def findEncodings(photos):
+def findencodings(photos):
     cdata = []
     for i in photos:
         i = cv2.cvtColor(i, cv2.COLOR_BGR2RGB)
@@ -25,7 +25,7 @@ def findEncodings(photos):
     return cdata
 
 
-def markAttendance(name):
+def markattendance(name):
     with open('Attendance.csv', 'r+') as f:
         mydata = f.readlines()
         namelist = []
@@ -38,7 +38,7 @@ def markAttendance(name):
             f.writelines(f'\n{name},{show}')
 
 
-encodelistknown = findEncodings(photos)
+encodelistknown = findencodings(photos)
 print('Encoding Complete')
 
 cap = cv2.VideoCapture(0)
@@ -59,7 +59,7 @@ while True:
 
         if faceDis[matchIndex] < 0.60:
             name = classNames[matchIndex].upper()
-            markAttendance(name)
+            markattendance(name)
         else:
             name = 'Unknown'
         y1, x2, y2, x1 = faceLoc
