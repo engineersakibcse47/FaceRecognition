@@ -110,7 +110,7 @@ Here, clearly showing system working properly and identify the Elon Musk [TRUE V
 
 <img src="tasks/1.png" width="450" height="280" align="left" title="hover text"> <img src="tasks/2.png" width="450" height="280" align="center" title="hover text">
 
-Second testing is unittest, here is testing file [uni_tests.py](https://github.com/engineersakibcse47/fc3/blob/main/src/unittest/python/projectunittest.py) This unit test is testing the **markattendance** and **face_recognition** functions in the **AttendanceProject** module.
+Second testing is unittest, here is testing file [uni_tests.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/unittest/python/projectunittest.py) This unit test is testing the **markattendance** and **face_recognition** functions in the **AttendanceProject** module.
 
 - The **setUp** method initializes the test data by adding a known test image and its corresponding class name to the photos and classNames lists. It also calculates the encodings for the known faces using the findencodings function.
 - The **test_markattendance** method tests that the **markattendance** function adds an entry to the Attendance.csv file, and that the entry has the correct class name.
