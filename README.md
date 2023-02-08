@@ -104,7 +104,7 @@ For build management I had used pybuilder, which is a powerful tool when using p
 After configured the files, if I run pyb from cmd the [build file](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/build.png)  showing the build ran successfully.
 
 ### Testing
-In testing, I have written 2 testing file. First testing is basic test,  I tried to figure out system could recognize the faces correctly or not. For testing, I wrote this file [BasicTest](https://github.com/engineersakibcse47/fc3/blob/main/src/unittest/python/Basictest.py).
+In testing, I have written 2 testing file. First testing is basic test,  I tried to figure out system could recognize the faces correctly or not. For testing, I wrote this file [BasicTest](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/unittest/python/Basicstest.py).
 I used Elon Mask Images for testing purpose, I used a training image and a test image of Elon Musk.
 Here, clearly showing system working properly and identify the Elon Musk [TRUE VALUE].  
 
