@@ -108,7 +108,7 @@ In testing, I have written 2 testing file. First testing is basic test,  I tried
 I used Elon Mask Images for testing purpose, I used a training image and a test image of Elon Musk.
 Here, clearly showing system working properly and identify the Elon Musk [TRUE VALUE].  
 
-<img src="tasks/1.png" width="450" height="350" align="center" title="hover text"> <img src="tasks/2.png" width="450" height="350" align="center" title="hover text">
+<img src="tasks/1.png" width="450" height="280" align="left" title="hover text"> <img src="tasks/2.png" width="450" height="280" align="center" title="hover text">
 
 Second testing is unittest, here is testing file [uni_tests.py](https://github.com/engineersakibcse47/fc3/blob/main/src/unittest/python/projectunittest.py) This unit test is testing the **markattendance** and **face_recognition** functions in the **AttendanceProject** module.
 
