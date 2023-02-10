@@ -11,7 +11,7 @@
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=engineersakibcse47_FaceRecognition&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=engineersakibcse47_FaceRecognition)
 
 ## General Overview
-This git repository contain a Face Recognition Attendance System using Python.
+This git repository contain Face Recognition Attendance System using Python.
 Face recognition systems can be implemented by using facial characteristics as biometrics. Attendance tracking is the most difficult task in any organization. Face recognition is a biometric technique that determines whether the image of a person’s face matches any of the face images stored in a database.
 
 The primary goal was of this project is to build a face recognition-based attendance monitoring system for employees working in an organization in order to improve and upgrade the current attendance system to make it more efficient and effective than before. The employee should be in an area containing light so that the detection can be clearly made.
@@ -55,13 +55,11 @@ For the UML diagrams I chose to present the following:
 Domain-Driven Design (DDD) is a software development approach that focuses on creating software that accurately reflects the underlying business domain and its complexities. It is a set of principles, practices, and patterns for modeling and designing software applications.
 DDD is often used in complex, large-scale software projects where there is a need to accurately reflect the business domain and its complexities, and to ensure that the software supports the business needs effectively.
 
-For the Domain Driven Design diagram, I had sketched what would be the complete [Problem Space](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/DDD_Diagram.jpg) for the application as starting point while 
-drafting the general goal of the application. Some have been already implemented since then, some have to be implemented in the future, if I get fund from Edlich investments. The DDD diagram is also mapping the data flow 
-relations as well as key partnerships for the application to work properly. Furthermore, I had created a small [glossary](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/glossary.pdf) containing ubiquitous language for each domain, this would allow a better understanding of the architecture and code.
+For the [Domain Driven Design Diagram](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/DDD_Diagram.jpg), I had sketched what would be the complete Problem Space for the application as starting point while drafting the general goal of the application. Some have been already implemented since then, some have to be implemented in the future, if I get fund from Edlich investments. The DDD diagram is also mapping the data flow relations as well as key partnerships for the application to work properly. Furthermore, I had created a small [glossary](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/glossary.pdf) containing ubiquitous language for each domain, this would allow a better understanding of the architecture and code.
 
 ### Metrics
 
-For metrics, I chose Sonarqube online version because it's much easier to integrate with your repository that running a local server. SonarCloud assists in evaluating the health of code and developing applications with clean, secure code. Detect bugs and vulnerabilities and receive immediate feedback. 
+For metrics, I chose SonarCloud online version because it's much easier to integrate with your repository that running a local server. SonarCloud assists in evaluating the health of code and developing applications with clean, secure code. Detect bugs and vulnerabilities and receive immediate feedback. 
 
 It also gives you the ability to embed lots of different badges-
 
@@ -79,14 +77,13 @@ It also gives you the ability to embed lots of different badges-
 
 Here is my personal [Cheat sheet](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/CCD_cheat_sheet.pdf) with my most important code principles. As the whole project is written completely in Python I decided to write also the cheat sheet in Python. This is good for testing my clean code principles as for showing some special features
 
-I tried to follow the 10 points the standards of clean code.
+I tried to follow the bellow key points the standards of clean code.
 
 - Use descriptive and meaningful variable names: Using descriptive and meaningful variable and functions names helps to make the code more self-explanatory and easier to understand, when you look in to the encoding and markattendance function you can immediately understand what is it doing, that's the case also for all the variables as well.
 - Use comments to explain the code: Adding comments to the code helps to explain the purpose and logic of the code, making it easier for others to understand. The code itself could be almost readable as English.
 - Follow a consistent coding style: Using a consistent coding style throughout the codebase helps to improve the readability and maintainability of the code.
 - Keep the code organized: Keeping the code organized by using indentation, white space, and blocks can make the code easier to read and understand.
 - Use functions to break up large blocks of code: Breaking up large blocks of code into smaller, more focused functions can make the code more modular and easier to understand.
-- Avoid using magic numbers: Magic numbers are hardcoded values that have no clear meaning. Instead, it is better to use constants or named variables to represent these values.
 - DRY: DRY stands for don't repeat yourself. The principle is very important in my opinion, because repetition of code is easily avoidable and makes the code very hard to maintain. Two common rules to make sure to apply DRY is to define constants for values which occur frequently. Another is to use functions/classes/methods which increase the abstraction level of the code, so that it becomes reusable by design. 
 - KISS: KISS means keep it simple stupid. Applying this principle makes sure that the code is simple to understand. In general, it states that simple solutions should be preferred to complicated. This obviously depends on the sitation a lot. I mostly apply this principle when choosing pybuilder build manegment over other solutions there are because its very simple and straightforward to maintain code.
 - Test and debug the code: Testing and debugging the code can help to identify and fix any issues, ensuring that the code is reliable and working as intended.
@@ -101,10 +98,10 @@ For build management I had used pybuilder, which is a powerful tool when using p
 - Setup file [setup.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/setup.py) 
 - toml file [pyproject.toml](https://github.com/engineersakibcse47/FaceRecognition/blob/main/pyproject.tolm) 
 
-After configured the files, if I run pyb from cmd the [build file](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/build.png)  showing the build ran successfully.
+After configured the files, if I run pyb from cmd the [build](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/build.png)  showing the build ran successfully.
 
 ### Testing
-In testing, I have written 2 testing file. First testing is basic test,  I tried to figure out system could recognize the faces correctly or not. For testing, I wrote this file [BasicTest](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/unittest/python/Basicstest.py).
+In the testing, I have written `2` testing file. First testing is basic test,  I tried to figure out system could recognize the faces correctly or not. For testing, I wrote this file [BasicTest](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/unittest/python/Basicstest.py).
 I used Elon Mask Images for testing purpose, I used a training image and a test image of Elon Musk.
 Here, clearly showing system working properly and identify the Elon Musk [TRUE VALUE].  
 
@@ -118,11 +115,7 @@ Second testing is unittest, here is testing file [uni_tests.py](https://github.c
 ### Continuous Delivery 
 Continuous Delivery (CD) is a software development practice in which code changes are automatically built, tested, and deployed to production. The goal of CD is to enable faster and more reliable software releases by eliminating manual and error-prone steps in the release process.
 
-Continuous Integration (CI) is a software development practice in which code changes are frequently integrated into a single codebase, typically multiple times per day. The goal of CI is to detect and fix integration problems as soon as possible, by running automated tests and builds, to reduce the time and effort required to release new features and bug fixes to production.
-
-For the continuous delivery pipeline I used GitHub Actions to create the continuous delivery [CD] pipeline. 
-In combination with pybuilder it is very convenient to use. Every time I push to my repository a new build is
-triggered.; my workflow CI pipeline builds including the following tasks:
+For the continuous delivery pipeline I used GitHub Actions to create the continuous delivery [CD] pipeline. In combination with pybuilder it is very convenient to use. Every time I push to my repository a new build is triggered.; my workflow CI pipeline builds including the following tasks:
 
 - Set up job
 - Run actions/checkout@v3
@@ -156,8 +149,6 @@ activities, then my implemented functions will summarize the time per activity a
 
 ### Functional Programming
 Functional programming (FP) is a software development paradigm that prioritizes the use of pure functions to construct and maintain software systems. The focus of functional programming is on the use of declarations and expressions rather than the execution of statements. Functions are considered to be a first-class entity in functional programming, which means they can be passed as arguments, returned from other functions, and assigned to variables.
-
-In functional programming, the emphasis is on immutability and avoiding side effects. This results in code that is easier to test and less prone to bugs. To achieve this, functional programming relies heavily on the use of higher-order functions and the concept of function composition.
 
 Functional programming has become increasingly popular in recent years due to its ability to handle complex and concurrent systems with ease. It has been used in a variety of applications, including data processing, game development, and machine learning.
 
