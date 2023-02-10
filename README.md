@@ -152,14 +152,14 @@ Functional programming (FP) is a software development paradigm that prioritizes 
 
 I tried to use functional style where possible. My code cover `2` functional programming aspect. Below, there two links to examples for the implementation of function:
 - [Final data structure](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py)
-- [Side-effect free function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L31) that takes a list of images and returns a list of their face encodings. It also defines the function called markattendance.
-- [Procedural function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L46) takes a name as an argument and writes it and the current time to a file called 'Attendance.csv' if the name is not already present in the file. 
+- [Side-effect free function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L31)
+- [Procedural function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L46) 
 
 As my code don't cover all aspects of functional programming, so I tried another outside of my project which cover all aspects. Below, there are some links to examples for the implementation:
-- [Only final data structures](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py) 
-- [(mostly) side effect free functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L6)  
-- [Higher order function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L9) 
-- [Functions as parameters and return values](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L12) 
-- [Use closures functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L15)  
+- [Only final data structures](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/func_program.py) 
+- [(mostly) side effect free functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/func_program.py#L6)  
+- [Higher order function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/func_program.py#L9) 
+- [Functions as parameters and return values](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/func_program.py#L12) 
+- [Use closures functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/func_program.py#L15)  
 
 
