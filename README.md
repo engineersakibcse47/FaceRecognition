@@ -96,7 +96,7 @@ For build management I had used pybuilder, which is a powerful tool when using p
 
 - Build file [build.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/build.py) 
 - Setup file [setup.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/setup.py) 
-- toml file [pyproject.toml](https://github.com/engineersakibcse47/FaceRecognition/blob/main/pyproject.tolm) 
+- toml file [pyproject.toml](https://github.com/engineersakibcse47/FaceRecognition/blob/main/pyproject.toml) 
 
 After configured the files, if I run pyb from cmd the [build](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/build.png)  showing the build ran successfully.
 
