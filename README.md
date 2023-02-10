@@ -67,15 +67,16 @@ It also gives you the ability to embed lots of different badges-
 
 ### Clean Code Development
 
-Here is my personal [Cheat sheet](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/CCD_cheat_sheet.pdf) with my most important code principles. As the whole project is written completely in Python I decided to write also the cheat sheet in Python. This is good for testing my clean code principles as for showing some special features
+Here is my personal [Cheat sheet](https://github.com/engineersakibcse47/FaceRecognition/blob/main/tasks/CCD_cheat_sheet.pdf) with my most important code description. As the whole project is written completely in Python, so I write this cheat sheet with in detail to better understanding. 
 
-I tried to follow the bellow key points the standards of clean code.
+I tried to follow the bellow 10 key points the standards of clean code.
 
 - Use descriptive and meaningful variable names: Using descriptive and meaningful variable and functions names helps to make the code more self-explanatory and easier to understand, when you look in to the encoding and markattendance function you can immediately understand what is it doing, that's the case also for all the variables as well.
 - Use comments to explain the code: Adding comments to the code helps to explain the purpose and logic of the code, making it easier for others to understand. The code itself could be almost readable as English.
 - Follow a consistent coding style: Using a consistent coding style throughout the codebase helps to improve the readability and maintainability of the code.
 - Keep the code organized: Keeping the code organized by using indentation, white space, and blocks can make the code easier to read and understand.
 - Use functions to break up large blocks of code: Breaking up large blocks of code into smaller, more focused functions can make the code more modular and easier to understand.
+- Avoid using magic numbers: Magic numbers are hardcoded values that have no clear meaning. Instead, it is better to use constants or named variables to represent these values.
 - DRY: DRY stands for don't repeat yourself. The principle is very important in my opinion, because repetition of code is easily avoidable and makes the code very hard to maintain. Two common rules to make sure to apply DRY is to define constants for values which occur frequently. Another is to use functions/classes/methods which increase the abstraction level of the code, so that it becomes reusable by design. 
 - KISS: KISS means keep it simple stupid. Applying this principle makes sure that the code is simple to understand. In general, it states that simple solutions should be preferred to complicated. This obviously depends on the sitation a lot. I mostly apply this principle when choosing pybuilder build manegment over other solutions there are because its very simple and straightforward to maintain code.
 - Test and debug the code: Testing and debugging the code can help to identify and fix any issues, ensuring that the code is reliable and working as intended.
@@ -84,7 +85,7 @@ I tried to follow the bellow key points the standards of clean code.
 ### Build Management
 With the move to continuous integration and continuous delivery, build management has become an important part of the software development and testing lifecycle. Build management is the process of collecting all of the assets to be included in a software release, performing all the automated tasks to compile, build and test the system and then deploy onto the development and testing environments in preparation for staging.
 
-For build management I had used pybuilder, which is a powerful tool when using python. PyBuilder is a software build automation tool written in pure Python mainly targeting Python ecosystem. It is based on the concept of dependency-based programming but also comes along with powerful plugin mechanism that allows the construction of build life-cycles similar to those known from other famous build tools like Apache Maven and Gradle. It is the first time that I configured a build management tool myself. You can find 3 files created for this purpose:
+For build management I used pybuilder, which is a powerful tool when using python. PyBuilder is a software build automation tool written in pure Python mainly targeting Python ecosystem. It is based on the concept of dependency-based programming but also comes along with powerful plugin mechanism that allows the construction of build life-cycles similar to those known from other famous build tools like Apache Maven and Gradle. It is the first time that I configured a build management tool myself. You can find 3 files created for this purpose:
 
 - Build file [build.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/build.py) 
 - Setup file [setup.py](https://github.com/engineersakibcse47/FaceRecognition/blob/main/setup.py) 
