@@ -2,7 +2,7 @@
 
 ~ I created a short quick list of my daily routine habits each weeks written here
 ~ We can calculate how much time we utilize in each different activity and of the week.
-~ My daily routine name, Weekly's Routine Cycle :
+~ My daily routine DSL, Weekly's Routine Cycle :
 
 ~ Sunday 
 30 minutes Exercise
