@@ -2,7 +2,6 @@
 
 [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=engineersakibcse47_FaceRecognition)](https://sonarcloud.io/summary/new_code?id=engineersakibcse47_FaceRecognition)
 
-
 ## General Overview
 This git repository contain Face Recognition Attendance System using Python.
 Face recognition systems can be implemented by using facial characteristics as biometrics. Attendance tracking is the most difficult task in any organization. Face recognition is a biometric technique that determines whether the image of a person’s face matches any of the face images stored in a database.
