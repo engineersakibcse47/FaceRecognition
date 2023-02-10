@@ -2,27 +2,26 @@
 
 ~ I created a short quick list of my daily routine habits each weeks written here
 ~ We can calculate how much time we utilize in each different activity and of the week.
-~ DSL, Weekly's Routine Cycle :
+~ My daily routine name, Weekly's Routine Cycle :
 
 ~ Sunday 
 30 minutes Exercise
 60 minutes Prayer
 30 minutes Read_News
 30 minutes Walk
-60 minutes Homework
-60 minutes Study
+60 minutes Cycleing
 
 ~ Monday
 60 minutes Prayer
 30 minutes Walk
 20 minutes Read_News
-30 minutes Cycleing
 2 hours Study
 
 ~ Tuesday
 60 minutes Cycleing
 60 minutes Prayer
 2 hours Study
+20 minutes Read_News
 60 minutes Homework
 
 ~ Wednesday
@@ -37,10 +36,25 @@
 30 minutes Exercise
 60 minutes Prayer
 25 minutes Read_News
-60 minutes Refreshment
+40 minutes Refreshment
 2 hours Study
-40 minutes Homework
+60 minutes Homework
 
+~ Friday
+30 minutes Exercise
+60 minutes Prayer
+30 minutes Read_News
+30 minutes Walk
+60 minutes Homework
+2 hours Study
+
+~ Saturday
+30 minutes Exercise
+40 minutes Cycleing
+30 minutes Read_News
+60 minutes Prayer
+60 minutes Refreshment
+60 minutes Homework
 
 ~ Overview
 Time spent in Exercise this week.
