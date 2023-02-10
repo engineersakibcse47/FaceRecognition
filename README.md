@@ -150,9 +150,16 @@ activities, then my implemented functions will summarize the time per activity a
 ### Functional Programming
 Functional programming (FP) is a software development paradigm that prioritizes the use of pure functions to construct and maintain software systems. The focus of functional programming is on the use of declarations and expressions rather than the execution of statements. Functions are considered to be a first-class entity in functional programming, which means they can be passed as arguments, returned from other functions, and assigned to variables.
 
-Functional programming has become increasingly popular in recent years due to its ability to handle complex and concurrent systems with ease. It has been used in a variety of applications, including data processing, game development, and machine learning.
+I tried to use functional style where possible. My code cover `2` functional programming aspect. Below, there two links to examples for the implementation of function:
+- [Final data structure](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py)
+- [Side-effect free function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L31) that takes a list of images and returns a list of their face encodings. It also defines the function called markattendance.
+- [Procedural function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L46) takes a name as an argument and writes it and the current time to a file called 'Attendance.csv' if the name is not already present in the file. 
 
-I tried to use functional style where possible. Below, there are some links to examples for the implementation of function:
-1. [findEncodings()](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L31) that takes a list of images and returns a list of their face encodings. It also defines the function called markattendance.
-2. [markAttendance()](https://github.com/engineersakibcse47/FaceRecognition/blob/main/src/main/python/AttendanceProject.py#L46) takes a name as an argument and writes it and the current time to a file called 'Attendance.csv' if the name is not already present in the file. 
+As my code don't cover all aspects of functional programming, so I tried another outside of my project which cover all aspects. Below, there are some links to examples for the implementation:
+- [Only final data structures](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py) 
+- [(mostly) side effect free functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L6)  
+- [Higher order function](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L9) 
+- [Functions as parameters and return values](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L12) 
+- [Use closures functions](https://github.com/engineersakibcse47/FaceRecognition/blob/main/.github/tasks/func_program.py#L15)  
+
 
