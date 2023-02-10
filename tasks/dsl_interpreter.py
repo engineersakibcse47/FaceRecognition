@@ -31,15 +31,15 @@ with open(sys.argv[1]) as file:
         if not line or line[0] == '~':
             continue
         # Split the line into separate parts, using spaces as the separator
-        single = line.split()
+        single_parts = line.split()
         # Check if the first part of the line is 'Time'
-        if single[0] == 'Time':
+        if single_parts[0] == 'Time':
             # Print the total time spent on the activity specified in the line
-            print(f"You spent: {routine[single[3]]} hours {single[3]} this week.")
+            print(f"You spent: {routine[single_parts[3]]} hours {single_parts[3]} this week.")
         else:
             # Retrieve the current time spent on the activity
-            x = routine[single[2]]
+            x = routine[single_parts[2]]
             # Convert the first part (time value) to integer
-            y = int(single[0])
+            y = int(single_parts[0])
             # Update the time spent on the activity by calling the appropriate function
-            routine[single[2]] = functions[single[1]](x, y)
+            routine[single_parts[2]] = functions[single_parts[1]](x, y)
