@@ -108,15 +108,15 @@ Second testing is unittest, here is testing file [uni_tests.py](https://github.c
 ### Continuous Delivery 
 Continuous Delivery (CD) is a software development practice in which code changes are automatically built, tested, and deployed to production. The goal of CD is to enable faster and more reliable software releases by eliminating manual and error-prone steps in the release process.
 
-For the continuous delivery pipeline I used GitHub Actions to create the continuous delivery [CD] pipeline. In combination with pybuilder it is very convenient to use. Every time I push to my repository a new build is triggered.; my workflow CI pipeline builds including the following tasks:
+For the continuous delivery pipeline I used GitHub Actions to create the continuous delivery [CD] pipeline. In combination with pybuilder it is very convenient to use. Every time I push to my repository a new build is triggered.; my workflow pipeline builds including the following tasks:
 
 - Set up job
 - Run actions/checkout@v3
-- Set up Python 3.9
+- Set up Python version
 - Lint with flake8
 - PyBuilder Action
 - Post PyBuilder Action
-- Post Set up Python 3.9
+- Post Set up Python version
 - Post Run actions/checkout@v3
 - Complete Job
 
